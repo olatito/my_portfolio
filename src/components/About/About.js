@@ -3,7 +3,7 @@ import "./About.css";
 
 function About() {
   return (
-    <div className="about-page">
+    <div className="about-page" id='about'>
       <div className="inner-about-page">
         <div className="about-imgs">
           <img src={profileImg} className="about-img" />
@@ -15,7 +15,9 @@ function About() {
             As a computer science graduate and passionate software engineer, I thrive on creating innovative solutions to complex problems. My dedication to continuous learning fuels my drive to stay at the forefront of technology and deliver impactful software solutions."
             </p>
             <div>
+            <a href="/#contact">
               <button className="about_button">Contact us</button>
+              </a>
             </div>
           </div>
         </div>

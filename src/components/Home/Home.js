@@ -13,7 +13,9 @@ function Home() {
               I am a front-end Engineer, I love Learning new Technologies, I love meeting new people
             </p>
             <div>
+            <a href="/#contact">
               <button className="home_button">Contact us</button>
+              </a>
             </div>
           </div>
         </div>

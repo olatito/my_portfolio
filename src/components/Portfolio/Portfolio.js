@@ -26,7 +26,7 @@ function Portfolio() {
     },
   ];
   return (
-    <div className='portfolio-container'>
+    <div className='portfolio-container' id='portfolio'>
       <div className='inner-portfolio_container'>
       <header>
       <h1>My Portfolio</h1>
@@ -44,11 +44,13 @@ function Portfolio() {
           <Project
             title={Projects[1].title}
             image={Projects[1].image}
+            projectLink={Projects[1].projectLink}
             description={Projects[1].projectLink}
           ></Project>
           <Project
             Project={Projects[2].title}
             image={Projects[2].image}
+            projectLink={Projects[2].projectLink}
             description={Projects[2].projectLink}
           ></Project>
       </div>

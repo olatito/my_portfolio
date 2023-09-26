@@ -1,8 +1,18 @@
 import "./Contact.css";
 
 function Contact() {
+
+  const submitHandler = (e) =>{
+    e.preventDefault()
+    return(
+      console.log(e.target.value)
+     
+      )
+  }
+    
+
   return (
-    <div className="contact">
+    <div className="contact" id="contact">
       <div className="inner-contact">
         <header className="contact-header">
           <h1>
@@ -49,7 +59,7 @@ function Contact() {
                 required
               />
               <div className="contact_button">
-                <button type="submit">Contact us</button>
+                <button type="submit" onSubmit={submitHandler}>Contact us</button>
               </div>
             </form>
           </div>

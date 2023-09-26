@@ -15,22 +15,22 @@ function NavBar() {
               <a href="/">HOME</a>
             </li>
             <li className="nav-link">
-              <a href="/">ABOUT</a>
+              <a href="/#about">ABOUT</a>
             </li>
             <li className="nav-link">
-              <a href="/">SERVICE</a>
+              <a href="/#service">SERVICE</a>
             </li>
             <li className="nav-link">
-              <a href="/">PORTFOLIO</a>
+              <a href="/#portfolio">PORTFOLIO</a>
             </li>
             <li className="nav-link">
-              <a href="/">RESUME</a>
+              <a href="/#experience">EXPERIENCE</a>
             </li>
             <li className="nav-link">
-              <a href="/">BLOG</a>
+              <a href="/#contact">BLOG</a>
             </li>
             <li className="nav-link">
-              <a href="/">CONTACT</a>
+              <a href="/#contact">CONTACT</a>
             </li>
           </ul>
         </nav>

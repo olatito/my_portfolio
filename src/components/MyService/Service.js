@@ -27,7 +27,7 @@ const concepts = [
 
 function Service() {
   return (
-    <div className="service">
+    <div className="service" id='service'>
       <div className="inner-service">
         <header>
           <h1>My <span>Service </span></h1>
