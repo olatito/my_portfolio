@@ -1,11 +1,9 @@
 .service{
     background-color: #111827;
-    height: 80vh;
     display: flex;
     justify-content: center;
 }
 .inner-service{
-    height: 80%;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -19,6 +17,7 @@
     display: flex;
     justify-content: center;
     gap: 1.5rem;
+    padding:0;
   }
 
   header h1 {

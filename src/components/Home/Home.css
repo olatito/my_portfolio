@@ -65,3 +65,24 @@
   width: 123px;
   background-color: #FACC15;
 }
+
+@media only screen and (max-width: 500px) {
+  .home-imgs {
+    display: none;
+  }
+
+  .inner-home-div{
+    display: flex;
+    flex-direction: column;
+    display: block;
+    width: 100%;
+  }
+  .home-text {
+    color: #f3f4f6;
+    display: flex;
+    align-items:center;
+    justify-content: start;
+    width: 100%;
+  }
+
+}

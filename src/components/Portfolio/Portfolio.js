@@ -11,18 +11,19 @@ function Portfolio() {
       title: "Digital Marketing",
       image: project1,
       projectLink: 'https://movie-box-eosin.vercel.app/',
+      name: 'A Movie Box'
     },
     {
       title: "State",
       image: project2,
-      projectLink:
-        'https://hng-task3-six.vercel.app/'
+      projectLink: 'https://hng-task3-six.vercel.app/',
+      name: 'A Drag n Drop Library',
     },
     {
       title: "Events",
       image: project3,
-      projectLink:
-        'https://olatito.github.io/'
+      projectLink:'https://olatito.github.io/',
+      name: 'A Simple Portfolio'
     },
   ];
   return (
@@ -40,18 +41,21 @@ function Portfolio() {
             title={Projects[0].title}
             projectLink={Projects[0].projectLink}
             image={Projects[0].image}
+            name={Projects[0].name}
           ></Project>
           <Project
             title={Projects[1].title}
             image={Projects[1].image}
             projectLink={Projects[1].projectLink}
             description={Projects[1].projectLink}
+            name={Projects[1].name}
           ></Project>
           <Project
             Project={Projects[2].title}
             image={Projects[2].image}
             projectLink={Projects[2].projectLink}
             description={Projects[2].projectLink}
+            name={Projects[2].name}
           ></Project>
       </div>
       </div>

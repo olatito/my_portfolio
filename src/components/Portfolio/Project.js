@@ -8,7 +8,7 @@ function Project(props) {
         <a href={props.projectLink}>
         <img className="project-img" src={props.image} alt={props.title} />
         </a>
-        <p className="project-title">{props.title}</p>
+        <p className="project-name">{props.name}</p>
     </div>
   );
 }

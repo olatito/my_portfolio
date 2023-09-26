@@ -23,6 +23,21 @@
 .nav-bar-logo {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+}
+.mobile-nav-bar-logo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #020617;
+  height: 65px;
+  padding: 0px 20px;
+}
+.nav-close-btn{
+  color: white;
+  font-size: 25px;
+  display: none;
 }
 a,
 a:hover,
@@ -30,4 +45,45 @@ a:focus,
 a:active {
   text-decoration: none;
   color: #9ca3af;
+}
+.mobile-nav-bar-links{
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .inner-nav-bar{
+    width: 100%;
+    justify-content: space-between;
+  }
+  .nav-bar-links{
+    flex-direction: column;
+    justify-content: start;
+    padding-left: 0px;
+    align-items: start;
+  }
+  .nav-link{
+    padding: 20px 0px;
+  }
+  .nav-bar-logo{
+    width: 100%;
+    padding: 30px;
+  }
+  .nav-bar-links-container{
+    display: none;
+  }
+  .mobile-nav-bar-links{
+    position: fixed;
+    display: block;
+    background-color: #020617;
+    width: 300px;
+    height: calc(100vh - 62px);
+    margin-top: 62px;
+    padding-left: 20px;
+  }
+ .inner-nav-bar nav{
+    display: none;
+  }
+  .nav-close-btn{
+    display: inline;
+  }
 }

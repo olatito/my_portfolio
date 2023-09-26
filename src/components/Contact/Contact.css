@@ -36,7 +36,14 @@
 .message_input{
   height: 100px;
   width: 100%;  
+  margin-bottom: 20px;
 }
+.name_input{
+    width: 100%;  
+    height: 30px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+  }
 
 .contact_button button{
     border-radius: 4px;
@@ -44,4 +51,16 @@
     height: 43px;
     width: 123px;
     background-color: #FACC15;
+}
+@media only screen and (max-width: 500px) {
+    .contact-forms{
+        display: grid;
+    }
+    .contact-details{
+        color:#EAB308;
+        width: 100%;
+    }
+    .contact-form{
+        width: 100%;
+    }
 }

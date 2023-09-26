@@ -1,9 +1,7 @@
 .service{
     background-color: #111827;
-    height: 80vh;
 }
 .inner-service{
-    height: 80%;
     width: 80%;
     display: flex;
     justify-content: center;
@@ -37,4 +35,9 @@ header p {
     transform: translateY(-2px);
     transition: transform 0.2s;
     box-shadow: 0 2px 30px rgba(234, 78, 240, 0.4);
+  }
+  @media only screen and (max-width: 500px) {
+  #concepts {
+    flex-wrap: wrap;
+  }
   }
