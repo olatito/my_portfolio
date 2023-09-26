@@ -1,0 +1,47 @@
+.contact{
+    background-color: #020617;
+    display: flex;
+    justify-content: center;
+}
+.inner-contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+
+}
+.contact-header{
+    color:#F3F4F6 ;
+
+}
+.contact-header span{
+    color:#EAB308 ;
+}
+
+.contact-details{
+    color:#EAB308;
+    width: 50%;
+}
+
+.contact-form{
+    width: 50%;
+}
+.contact-details span{
+    color: #F3F4F6;
+}
+.contact-forms{
+    display: flex;
+    justify-content: space-between;
+}
+.message_input{
+  height: 100px;
+  width: 100%;  
+}
+
+.contact_button button{
+    border-radius: 4px;
+    border-color: #facc15;
+    height: 43px;
+    width: 123px;
+    background-color: #FACC15;
+}
