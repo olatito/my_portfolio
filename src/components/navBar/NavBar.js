@@ -22,22 +22,22 @@ function NavBar() {
               <a href="/">HOME</a>
             </li>
             <li className="nav-link">
-              <a href="/#about">ABOUT</a>
+              <a onClick={toggleMenu} href="/#about">ABOUT</a>
             </li>
             <li className="nav-link">
-              <a href="/#service">SERVICE</a>
+              <a onClick={toggleMenu} href="/#service">SERVICE</a>
             </li>
             <li className="nav-link">
-              <a href="/#portfolio">PORTFOLIO</a>
+              <a onClick={toggleMenu} href="/#portfolio">PORTFOLIO</a>
             </li>
             <li className="nav-link">
               <a href="/#experience">EXPERIENCE</a>
             </li>
             <li className="nav-link">
-              <a href="/#contact">BLOG</a>
+              <a onClick={toggleMenu} href="/#contact">BLOG</a>
             </li>
             <li className="nav-link">
-              <a href="/#contact">CONTACT</a>
+              <a onClick={toggleMenu} href="/#contact">CONTACT</a>
             </li>
           </ul>
         </nav>

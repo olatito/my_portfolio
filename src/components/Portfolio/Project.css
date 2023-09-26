@@ -9,14 +9,17 @@
     border-radius: 10px;
 }
 
-project-name{
-    color: wheat;
+.project-name{
+    color:white;
+    border-color: aliceblue;
 
 }
 @media only screen and (max-width: 500px) {
     .project-card{
         width: 90%;
+        height: unset;
+    }
+    .project-img{
         height: 200px;
     }
-    
 }
