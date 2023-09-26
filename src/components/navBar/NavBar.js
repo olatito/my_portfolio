@@ -31,7 +31,7 @@ function NavBar() {
               <a onClick={toggleMenu} href="/#portfolio">PORTFOLIO</a>
             </li>
             <li className="nav-link">
-              <a href="/#experience">EXPERIENCE</a>
+              <a onClick={toggleMenu} href="/#experience">EXPERIENCE</a>
             </li>
             <li className="nav-link">
               <a onClick={toggleMenu} href="/#contact">BLOG</a>
