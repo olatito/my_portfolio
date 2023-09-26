@@ -14,21 +14,21 @@ function Contact() {
           <div className="contact-details">
             <p>
               Address _{" "}
-              <span> 23 S 80 Road, Benedict,ne, 68316 United States</span>
+              <span> No 7 , Ebun street, Abule Ijesha , Lagosm Nigeria</span>
             </p>
             <p>
-              Phone <span>23 S 80 Road, Benedict,ne, 68316 United States</span>
+              Phone <span>+234 81 62345 454</span>
             </p>
             <p>
               E-mail _{" "}
               <span>
-                Address _ 23 S 80 Road, Benedict,ne, 68316 United States
+                olayiwolatofunmi212@gmail.com
               </span>
             </p>
             <p>
               Website _{" "}
               <span>
-                Address _ 23 S 80 Road, Benedict,ne, 68316 United States
+                <a href="https://my-portfolio-o39b-c0mhyh09a-olatito.vercel.app/"> https://my-portfolio-o39b-c0mhyh09a-olatito.vercel.app/</a>
               </span>
             </p>
           </div>

@@ -6,28 +6,28 @@ import "./Experiences.css";
 
 const concepts = [
   {
-    date: "June 2002 -  2023",
+    date: "June 2021- December 2021",
     title: "Digital Marketing",
     image: componentsImage,
-    tools:'Javascript',
+    tools:'Google Ads',
     description:
-      "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Components can receive data via props, and they can render dynamic output using JSX.",
+      "As an intern in Digital marketing ,I have hands-on experience in digital marketing, I've successfully devised and executed data-driven strategies that have propelled businesses to new heights. My expertise includes optimizing SEO rankings, crafting engaging social media campaigns, and delivering ROI-focused PPC advertising",
   },
   {
-    date: "June 2002 -  2023",
-    title: "State",
+    date: "Feb 2022 -  Dec 2022",
+    title: "CCNA",
     image: stateImage,
-    tools:'Javascript',
+    tools:'Routers and Switches',
     description:
-      "State is data that may change over time. As it changes, the UI should be updated to reflect the updated data. Each component can maintain its own state and multiple components can share state.",
+      "As a certified network administrator and a CCNA certification under my belt, I've demonstrated proficiency in designing, implementing, and managing complex network solutions. My expertise spans routing, switching, security, and troubleshooting, ensuring seamless connectivity and robust network performance",
   },
   {
-    date: "June 2002 -  2023",
-    title: "Events",
+    date: "sep 2023 -  Date",
+    title: "HNG",
     image: eventsImage,
-    tools:'Javascript',
+    tools:'React js',
     description:
-      "Event handlers are added via props to (built-in) components. You pass functions as values to such event handlers to control which functions gets executed for which event.",
+      "As an intern at HNG , I've crafted stunning and responsive user interfaces that captivate and engage users. My expertise includes proficiency in HTML, CSS, JavaScript, and various modern frameworks like React ",
   },
 ];
 
@@ -40,10 +40,7 @@ function Experience() {
             My <span>Experiences </span>
           </h1>
           <p>
-            Selected key React concepts you should know about "State is data
-            that may change over time. As it changes, the UI should be updated
-            to reflect the updated data. Each component can maintain its own
-            state and multiple components can share state.",
+          With a versatile background as a software engineer, digital marketer, and CCNA certified professional, I bring a unique blend of technical prowess and marketing finesse to drive innovation and growth. My experience spans crafting elegant software solutions, devising data-driven marketing strategies, and ensuring robust network infrastructure.,
           </p>
         </header>
         <ul id="concepts">
@@ -55,11 +52,11 @@ function Experience() {
             description={concepts[0].description}
           ></MyExperience>
           <MyExperience
-          date={concepts[2].date}
+          date={concepts[1].date}
             title={concepts[1].title}
             image={concepts[1].image}
             description={concepts[1].description}
-            tools={concepts[2].tools}
+            tools={concepts[1].tools}
           ></MyExperience>
           <MyExperience
           date={concepts[2].date}

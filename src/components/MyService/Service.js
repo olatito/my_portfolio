@@ -6,22 +6,22 @@ import "./Service.css";
 
 const concepts = [
   {
-    title: "Digital Marketing",
+    title: "Front-end Engineer",
     image: componentsImage,
     description:
-      "Components let you split the UI into independent, reusable pieces, and think about each piece in isolation. Components can receive data via props, and they can render dynamic output using JSX.",
+      "As a software engineer, I architect and build solutions that drive technological progress. I embrace challenges as opportunities for innovation and thrive in dynamic problem-solving environments. My code is a reflection of precision, efficiency, and a commitment to delivering high-quality software.",
   },
   {
-    title: "State",
+    title: "Web Development",
     image: stateImage,
     description:
-      "State is data that may change over time. As it changes, the UI should be updated to reflect the updated data. Each component can maintain its own state and multiple components can share state.",
+      "As a web developer, I craft digital experiences that combine creativity and functionality. With a strong foundation in web technologies, I bring ideas to life in the digital realm. My commitment to responsive design ensures user-friendly experiences on all devices",
   },
   {
-    title: "Events",
+    title: " Software Designer",
     image: eventsImage,
     description:
-      "Event handlers are added via props to (built-in) components. You pass functions as values to such event handlers to control which functions gets executed for which event.",
+      "As a software designer, I blend artistry and functionality to create user-centric experiences. My designs seamlessly merge aesthetics and usability, enhancing digital products. With an eye for detail and user empathy, I craft solutions that delight and engage.",
   },
 ];
 
@@ -31,7 +31,7 @@ function Service() {
       <div className="inner-service">
         <header>
           <h1>My <span>Service </span></h1>
-          <p>Selected key React concepts you should know about      "State is data that may change over time. As it changes, the UI should be updated to reflect the updated data. Each component can maintain its own state and multiple components can share state.",
+          <p>As a software engineer, I offer expertise in full-stack development, from crafting elegant front-end interfaces to designing scalable back-end architectures. My commitment to clean code and rigorous testing ensures robust and maintainable software solutions. I bring innovation and problem-solving to every project, delivering technology-driven results that drive success",
 </p>
         </header>
         <ul id="concepts">

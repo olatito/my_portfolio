@@ -31,10 +31,7 @@ function Portfolio() {
       <header>
       <h1>My Portfolio</h1>
       <p>
-        Selected key React concepts you should know about "State is data that
-        may change over time. As it changes, the UI should be updated to reflect
-        the updated data. Each component can maintain its own state and multiple
-        components can share state.",
+      My portfolio as a developer showcases a diverse range of projects that highlight my technical skills and creativity. Explore my portfolio to witness my passion for turning ideas into functional and elegant software solutions.,
       </p>
     </header>
 
